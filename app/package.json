@@ -1,0 +1,21 @@
+{
+  "name": "highload",
+  "version": "1.0.0",
+  "description": "Документация к первому, пилотному чемпионату highloadcup ========",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mysql": "^2.15.0",
+    "pg-promise": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/nodemon/bin/nodemon.js --watch foldername --watch modules --watch main.js ./bin/www"
+  },
+  "author": "",
+  "license": "ISC"
+}

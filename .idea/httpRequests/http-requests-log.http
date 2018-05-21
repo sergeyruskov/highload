@@ -1,0 +1,180 @@
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T031738.200.json
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T031722.200.json
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T031212.200.json
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T031154.200.json
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T030506.200.json
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T030235.200.json
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T022914.404.txt
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T022855.404.txt
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T022652.500.html
+
+###
+
+GET http://localhost:3001/users/1/visits?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/user?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-26T015758.404.txt
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-26T015525.200.json
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-26T015501.200.json
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3002/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:3001/users/1?fromAge=18
+Accept: */*
+Cache-Control: no-cache
+
+###
+
