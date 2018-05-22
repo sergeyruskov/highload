@@ -2,10 +2,9 @@
 // const db = pgp('postgres://localhost:5432/');
 const mysql      = require('mysql');
 const db = mysql.createConnection({
-    host     : '127.0.0.1',
+    host     : 'localhost',
     user     : 'root',
-    password : 'root',
-    port: 8889,
+    password : 'a3844175',
     database: 'travels'
 });
 db.connect(err => {
