@@ -31,10 +31,9 @@ app.use((req, res, next) => {
 	res.sendStatus(404);
 });
 
-
 //todo возможно для прод обстрела надо поменять порт на 80 в bin/www
-app.listen(3001, function () {
-	console.log('Example app listening on port 3001!');
+app.listen(3002, function () {
+	console.log('Example app listening on port 3002!');
 });
 
 module.exports = app;

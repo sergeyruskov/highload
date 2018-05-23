@@ -1,3 +1,11 @@
+GET http://localhost:3002/users/1/visits
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-05-23T020448.200.json
+
+###
+
 GET http://localhost:3001/users/1/visits?fromAge=18
 Accept: */*
 Cache-Control: no-cache

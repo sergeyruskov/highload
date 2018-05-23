@@ -4,17 +4,19 @@
   "description": "Документация к первому, пилотному чемпионату highloadcup ========",
   "main": "main.js",
   "dependencies": {
-    "express": "^4.15.4",
-    "mysql": "^2.15.0",
-    "pg-promise": "^6.5.1"
+    "express": "latest",
+    "lodash": "^4.17.10",
+    "mysql": "latest",
+    "pg-promise": "latest",
+    "promise-mysql": "^3.2.1"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "latest"
   },
   "scripts": {
     "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/nodemon/bin/nodemon.js --watch foldername --watch modules --watch main.js ./bin/www"
+    "dev": "./node_modules/nodemon/bin/nodemon.js --watch foldername --watch modules --watch main.js"
   },
   "author": "",
   "license": "ISC"
