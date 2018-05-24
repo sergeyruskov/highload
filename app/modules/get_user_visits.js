@@ -8,38 +8,33 @@ module.exports = function getUserVisits({db, res, id, query}) {
 
 	function queryParams({query, DBquery}) {
 		forOwn(query, (value, key) => {
-			// todo doproverit' filtri
 			switch(key) {
 				case 'fromDate': {
-					if (queryNumberCheck(value)) {
-						DBquery += ` AND V.visited_at > ${value}`;
-					} else {
+					if (!queryNumberCheck(value)) {
 						return res.sendStatus(400);
 					}
+					DBquery += ` AND V.visited_at > ${value}`;
 					break;
 				}
 				case 'toDate': {
-					if (queryNumberCheck(value)) {
-						DBquery += ` AND V.visited_at < ${value}`;
-					} else {
+					if (!queryNumberCheck(value)) {
 						return res.sendStatus(400);
 					}
+					DBquery += ` AND V.visited_at < ${value}`;
 					break;
 				}
 				case 'toDistance': {
-					if (queryNumberCheck(value)) {
-						DBquery += ` AND L.distance < ${value}`;
-					} else {
+					if (!queryNumberCheck(value)) {
 						return res.sendStatus(400);
 					}
+					DBquery += ` AND L.distance < ${value}`;
 					break;
 				}
 				case 'country': {
 					if (/^[a-zA-Zа-яА-Я]+$/.test(value)) {
-						DBquery += ` AND L.country = '${value}'`;
-					} else {
 						return res.sendStatus(400);
 					}
+					DBquery += ` AND L.country = '${value}'`;
 				}
 			}
 		});
